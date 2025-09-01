@@ -1,0 +1,112 @@
+/* Progress bar css start */
+.progress-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start; /* align labels to top */
+  position: relative;
+}
+.step-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.steps {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0; /* always top of wrapper */
+  z-index: 1;
+  color: white;
+  transition: all 0.3s ease;
+}
+.step-wrapper.upcoming .steps,
+.step-wrapper.completed .steps {
+  width: 22px;
+  height: 22px;
+  font-size: 14px;
+}
+.step-wrapper.upcoming .step-label,
+.step-wrapper.completed .step-label {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+.step-wrapper.active .steps {
+  width: 28px;
+  height: 28px;
+  font-size: 12px;
+}
+.step-wrapper:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  width: 100%;
+  height: 3px;
+  background-color: #ccc;
+  transform: translateY(-50%) translateX(0);
+  z-index: 0;
+}
+.step-wrapper.completed:not(:last-child)::after {
+  background-color: rgb(216, 15, 30);
+}
+.step-wrapper.completed .steps,
+.step-wrapper.active .steps {
+  background-color: rgb(216, 15, 30);
+}
+.step-wrapper.upcoming .steps {
+  background-color: #ccc;
+}
+.step-label {
+  margin-top: 30px;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .step-label {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 345px) {
+  .step-label {
+    font-size: 10px !important;
+  }
+}
+/* Progress bar css end */
+
+
+/* Other elements css start */
+.fw-medium {
+  font-weight: 500 !important;
+}
+.highlight-red {
+  color: #be3636;
+}
+.mastercard-img {
+  height: 40px;
+}
+.shopping-link {
+  color: #d70f1e;
+}
+.thanks-text, .highlight-size {
+  font-size: 1rem !important;
+}
+@media (max-width: 345px) {
+  .track-item {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .cancel-item {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+@media (min-width: 768px) {
+  .thanks-text, .highlight-size {
+    font-size: 1.5rem !important;
+  }
+}
+/* Other elements css end */
