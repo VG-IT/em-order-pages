@@ -110,10 +110,7 @@
 .product-price {
   font-size: 16px;
 }
-.sold-by {
-  font-size: 12px;
-}
-.track-item, .cancel-item {
+.track-item, .cancel-item, .sold-by {
   font-size: 12px;
 }
 .text-grey {
@@ -167,10 +164,7 @@
   .product-price {
     font-size: 18px;
   }
-  .sold-by {
-    font-size: 14px;
-  }
-  .track-item, .cancel-item {
+  .track-item, .cancel-item, .sold-by {
     font-size: 14px;
   }
 }
