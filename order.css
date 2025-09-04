@@ -86,13 +86,53 @@
   color: #be3636;
 }
 .mastercard-img {
-  height: 40px;
+  height: 20px;
+}
+.email-text {
+  font-size: 15px;
+}
+.thanks-text {
+  font-size: 18px;
 }
 .shopping-link {
   color: #d70f1e;
+  font-size: 13px;
 }
-.thanks-text, .highlight-size {
-  font-size: 1rem !important;
+.shipping-text, .product-detail {
+  font-size: 12px;
+}
+.order-number {
+  font-size: 26px;
+}
+.user-detail {
+  font-size: 13px;
+}
+.product-price {
+  font-size: 16px;
+}
+.sold-by {
+  font-size: 12px;
+}
+.track-item, .cancel-item {
+  font-size: 12px;
+}
+.text-grey {
+  color: #7d7d7d;
+}
+.text-dark-grey {
+  color: #333333 !important;
+}
+.font-size-11 {
+  font-size: 11px;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.font-size-13 {
+  font-size: 13px;
+}
+.font-size-17 {
+  font-size: 17px;
 }
 @media (max-width: 345px) {
   .track-item {
@@ -105,8 +145,33 @@
   }
 }
 @media (min-width: 768px) {
-  .thanks-text, .highlight-size {
-    font-size: 1.5rem !important;
+  .shopping-link {
+    color: #d70f1e;
+    font-size: 16px;
+  }
+  .thanks-text {
+    font-size: 20px;
+  }
+  .email-text {
+    font-size: 17px;
+  }
+  .shipping-text, .product-detail {
+    font-size: 13px;
+  }
+  .order-number {
+    font-size: 28px;
+  }
+  .user-detail {
+    font-size: 15px;
+  }
+  .product-price {
+    font-size: 18px;
+  }
+  .sold-by {
+    font-size: 14px;
+  }
+  .track-item, .cancel-item {
+    font-size: 14px;
   }
 }
 /* Other elements css end */
