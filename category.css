@@ -1,0 +1,100 @@
+.kbeauty-heading {
+  font-size: 26px;
+}
+.type-heading {
+  font-size: 18px;
+}
+.card-img-section {
+  background-color: #f3f3f3;
+  height: 155px;
+}
+.premium-swiper .card-img-section, .gifts-swiper .card-img-section {
+  background-color: #fafafa;
+}
+.brand-swiper .card-img-section .card-img-top {
+  object-fit: cover;
+}
+.category-swiper .card-title, .brand-swiper .card-title {
+  font-size: 16px;
+}
+.category-swiper, .brand-swiper, .products-swiper, .new-arrivals-swiper, .premium-swiper, .gifts-swiper {
+  padding: 10px 0;
+}
+.products-swiper .card-title, .new-arrivals-swiper .card-title, .premium-swiper .card-title, .gifts-swiper .card-title, .product-card .card-title, .product-card .card-text, .products-count, #categoriesTab, #priceTab, #shipsTab, #brandsTab {
+  font-size: 14px;
+}
+.products-swiper .card-price, .new-arrivals-swiper .card-price, .premium-swiper .card-price, .gifts-swiper .card-price, .product-card .card-price {
+  font-size: 17px;
+}
+.products-swiper .card-value, .new-arrivals-swiper .card-value, .premium-swiper .card-value, .gifts-swiper .card-value, .product-card .card-value {
+  font-size: 13px;
+}
+.swiper-button-custom {
+  width:25px;
+  height:25px;
+  background-color: #d70f1e;
+  font-size: 18px;
+}
+.swiper-button-disabled {
+  color: #cfcfcf !important;
+  background-color: #f3f3f3;
+}
+.bestsellers-section, .bestsellers-section .card {
+  background-color: #fce2e4;
+}
+.new-arrivals-section, .new-arrivals-section .card {
+  margin-top: 2px;
+  background-color: #fceae2;
+}
+.product-card, .sort-filter {
+  border-color: #dcdcdc;
+}
+.product-card .card-img-top {
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 200px;
+}
+.categories-filters-card .toggle-icon::before, .price-filters-card .toggle-icon::before, .ships-filters-card .toggle-icon::before, .brand-filters-card .toggle-icon::before {
+  content: "−";
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.categories-filters-card .card-header[aria-expanded="false"] .toggle-icon::before, .price-filters-card .card-header[aria-expanded="false"] .toggle-icon::before, .ships-filters-card .card-header[aria-expanded="false"] .toggle-icon::before, .brand-filters-card .card-header[aria-expanded="false"] .toggle-icon::before {
+  content: "+";
+}
+.filter-text, .sort-filter span {
+  font-size: 12px;
+}
+.sort-filter select {
+  width: 82px;
+  font-size: 12px;
+}
+.pagination .page-link {
+  width: 40px;
+  height: 40px;
+}
+.pagination .page-item.active .page-link {
+  border-color: #d80f1e !important;
+  background-color: #d80f1e !important;
+}
+.filter-text, .sort-filter span, .card-title, .card-text, .card-price, .card-value, .products-count p, #categoriesTab a {
+  color: #333333;
+}
+@media (min-width: 768px) {
+  .kbeauty-heading {
+    font-size: 30px;
+  }
+  .type-heading {
+    font-size: 20px;
+  }
+  .card-img-section {
+    height: 250px;
+  }
+  .swiper-button-custom {
+    width:30px;
+    height:30px;
+  }
+}

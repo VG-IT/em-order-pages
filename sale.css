@@ -1,0 +1,102 @@
+.total-items, .banner-details, .breadcrumb-item, .breadcrumb-item a, .filter-text, .sort-filter span, .product-card .card-title, .product-card .card-text, .product-card .card-price, .product-card .card-value, .products-count p {
+  color: #333333;
+}
+.banner-section {
+  background-image: url('images/banner.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 85px;
+}
+.banner-text {
+  width: 185px;
+  transform: translate(-32%, -50%) !important;
+  left: 60%;
+}
+.banner-heading {
+  color: #851f0b;
+  font-size: 19px;
+}
+.banner-details {
+  font-size: 9px;
+}
+.filter-text, .sort-filter span {
+  font-size: 12px;
+}
+.sort-filter select {
+  width: 82px;
+  font-size: 12px;
+}
+.hot-deal-wrapper {
+  left: 15px;
+  z-index: 10;
+  width: 60px;
+  height: 60px;
+  background: url('images/hot-deal-bg.jpeg') no-repeat center center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hot-deal-text {
+  font-size: 13px;
+  line-height: 1.2;
+}
+.product-card, .sort-filter {
+  border-color: #dcdcdc;
+}
+.product-card .card-img-top {
+  padding-left: 85px;
+  padding-right: 85px;
+  height: 200px;
+}
+.product-card .card-title, .product-card .card-text, .products-count, .breadcrumb-item, .breadcrumb-item a {
+  font-size: 14px;
+}
+.product-card .card-price {
+  font-size: 17px;
+}
+.product-card .card-value {
+  font-size: 13px;
+}
+.pagination .page-link {
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+}
+.pagination .page-item.active .page-link {
+  border-color: #d80f1e !important;
+  background-color: #d80f1e !important;
+}
+@media (min-width: 768px) {
+  .banner-section {
+    height: 180px;
+  }
+  .banner-heading {
+    font-size: 30px;
+  }
+  .banner-text {
+    width: auto;
+    transform: translate(-50%, -50%) !important;
+    left: 56%;
+  }
+  .breadcrumb-item, .breadcrumb-item a, .banner-details, .total-items {
+    font-size: 15px;
+  }
+  .filter-text, .sort-filter span {
+    font-size: 16px;
+  }
+  .sort-filter select {
+    width: auto;
+    font-size: 16px;
+  }
+  .hot-deal-wrapper {
+    left: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .product-card .card-img-top {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
